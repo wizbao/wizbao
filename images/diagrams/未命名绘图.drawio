@@ -1,13 +1,13 @@
-<mxfile host="app.diagrams.net" modified="2023-05-24T03:10:20.275Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="gv0zXh25ZBeIVbcFxprp" version="21.3.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-24T03:10:54.633Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="Q2JgIm3hD7OwLKEymGE5" version="21.3.3" type="github">
   <diagram name="第 1 页" id="Ev2duZ_iQHcF1wmbmaE-">
     <mxGraphModel dx="1434" dy="774" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="WbcqiW-BNB_0RPY3lRLD-1" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+        <mxCell id="WbcqiW-BNB_0RPY3lRLD-1" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
           <mxGeometry x="90" y="360" width="10" height="300" as="geometry" />
         </mxCell>
-        <mxCell id="WbcqiW-BNB_0RPY3lRLD-3" value="&lt;pre style=&quot;background-color:#2b2b2b;color:#a9b7c6;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:10.5pt;&quot;&gt;sendToPartnerExecute&lt;/pre&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" source="WbcqiW-BNB_0RPY3lRLD-1" parent="1" target="WbcqiW-BNB_0RPY3lRLD-5">
+        <mxCell id="WbcqiW-BNB_0RPY3lRLD-3" value="&lt;pre style=&quot;background-color:#2b2b2b;color:#a9b7c6;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:10.5pt;&quot;&gt;sendToPartnerExecute&lt;/pre&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" source="WbcqiW-BNB_0RPY3lRLD-1" target="WbcqiW-BNB_0RPY3lRLD-5" edge="1">
           <mxGeometry x="-0.2174" relative="1" as="geometry">
             <mxPoint x="240" y="435" as="targetPoint" />
             <Array as="points">
@@ -16,22 +16,22 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="WbcqiW-BNB_0RPY3lRLD-4" value="&lt;pre style=&quot;background-color:#2b2b2b;color:#a9b7c6;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:10.5pt;&quot;&gt;AsOrderStateSyncMessageHandler&lt;/pre&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="WbcqiW-BNB_0RPY3lRLD-4" value="&lt;pre style=&quot;background-color:#2b2b2b;color:#a9b7c6;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:10.5pt;&quot;&gt;AsOrderStateSyncMessageHandler&lt;/pre&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry y="290" width="230" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="WbcqiW-BNB_0RPY3lRLD-5" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+        <mxCell id="WbcqiW-BNB_0RPY3lRLD-5" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
           <mxGeometry x="330" y="360" width="10" height="290" as="geometry" />
         </mxCell>
-        <mxCell id="WbcqiW-BNB_0RPY3lRLD-6" value="&lt;pre style=&quot;background-color:#2b2b2b;color:#a9b7c6;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:10.5pt;&quot;&gt;PartnerMessageHandler&lt;/pre&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="WbcqiW-BNB_0RPY3lRLD-6" value="&lt;pre style=&quot;background-color:#2b2b2b;color:#a9b7c6;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:10.5pt;&quot;&gt;PartnerMessageHandler&lt;/pre&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="280" y="290" width="170" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="WbcqiW-BNB_0RPY3lRLD-8" value="传入message和partner" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="WbcqiW-BNB_0RPY3lRLD-8" value="传入message和partner" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="100" y="418" width="150" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="WbcqiW-BNB_0RPY3lRLD-9" value="&lt;pre style=&quot;background-color:#2b2b2b;color:#a9b7c6;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:10.5pt;&quot;&gt;partnerMessageExecutorService.getPartnerMessageExecutor&lt;span style=&quot;color:#e8ba36;&quot;&gt;(&lt;/span&gt;partner&lt;span style=&quot;color:#e8ba36;&quot;&gt;)&lt;/span&gt;&lt;/pre&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="WbcqiW-BNB_0RPY3lRLD-9" value="&lt;pre style=&quot;background-color:#2b2b2b;color:#a9b7c6;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:10.5pt;&quot;&gt;partnerMessageExecutorService.getPartnerMessageExecutor&lt;span style=&quot;color:#e8ba36;&quot;&gt;(&lt;/span&gt;partner&lt;span style=&quot;color:#e8ba36;&quot;&gt;)&lt;/span&gt;&lt;/pre&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="340" y="360" width="470" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="WbcqiW-BNB_0RPY3lRLD-10" value="该方法返回一个消息执行器，PartnerMessageExecutor。&lt;br&gt;然后由这个执行器去调用execute方法执行message，返回openapi响应结果" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="WbcqiW-BNB_0RPY3lRLD-10" value="该方法返回一个消息执行器，PartnerMessageExecutor。&lt;br&gt;然后由这个执行器去调用execute方法执行message，返回openapi响应结果" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="380" y="408" width="420" height="40" as="geometry" />
         </mxCell>
       </root>
