@@ -1,9 +1,84 @@
-<mxfile host="app.diagrams.net" modified="2024-07-10T14:37:26.926Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" version="24.6.4" etag="tRdRM8icZXkzaEHhK0rF" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-10T15:49:52.245Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="xpHc9VjaJSQFDIqVj1Do" version="24.6.4" type="github">
   <diagram name="第 1 页" id="SsoD-0d4OX4sEQfQ5WCW">
-    <mxGraphModel>
+    <mxGraphModel dx="1616" dy="721" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="Nj8Q5rFWtXVFyINVAYre-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="Nj8Q5rFWtXVFyINVAYre-1" target="Nj8Q5rFWtXVFyINVAYre-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Nj8Q5rFWtXVFyINVAYre-13" value="向执行器发起调度请求" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Nj8Q5rFWtXVFyINVAYre-12">
+          <mxGeometry x="0.0667" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Nj8Q5rFWtXVFyINVAYre-1" value="调度中心" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="240" width="170" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="Nj8Q5rFWtXVFyINVAYre-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="Nj8Q5rFWtXVFyINVAYre-6" target="Nj8Q5rFWtXVFyINVAYre-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Nj8Q5rFWtXVFyINVAYre-15" value="向调度中心返回执行结果" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Nj8Q5rFWtXVFyINVAYre-14">
+          <mxGeometry x="0.125" y="4" relative="1" as="geometry">
+            <mxPoint x="15" y="-9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Nj8Q5rFWtXVFyINVAYre-6" value="执行器" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="240" width="170" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="Nj8Q5rFWtXVFyINVAYre-16" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;任务调度过程&lt;/h1&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;调度中心向执行器发起调度请求，&lt;/font&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); color: rgb(51, 51, 51); font-family: &amp;quot;Microsoft YaHei&amp;quot;, Helvetica, &amp;quot;Meiryo UI&amp;quot;, &amp;quot;Malgun Gothic&amp;quot;, &amp;quot;Segoe UI&amp;quot;, &amp;quot;Trebuchet MS&amp;quot;, Monaco, monospace, Tahoma, STXihei, 华文细黑, STHeiti, &amp;quot;Helvetica Neue&amp;quot;, &amp;quot;Droid Sans&amp;quot;, &amp;quot;wenquanyi micro hei&amp;quot;, FreeSans, Arimo, Arial, SimSun, 宋体, Heiti, 黑体, sans-serif; font-size: 14px;&quot;&gt;“执行器”在接收到任务执行请求后，执行任务，在执行结束之后会将执行结果回调通知“调度中心”&lt;/span&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="160" y="100" width="320" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Nj8Q5rFWtXVFyINVAYre-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="Nj8Q5rFWtXVFyINVAYre-22">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="330" y="710" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Nj8Q5rFWtXVFyINVAYre-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Nj8Q5rFWtXVFyINVAYre-21" target="Nj8Q5rFWtXVFyINVAYre-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Nj8Q5rFWtXVFyINVAYre-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Nj8Q5rFWtXVFyINVAYre-21" target="Nj8Q5rFWtXVFyINVAYre-26">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="380" y="710" />
+              <mxPoint x="380" y="800" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Nj8Q5rFWtXVFyINVAYre-32" value="Text" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Nj8Q5rFWtXVFyINVAYre-30">
+          <mxGeometry x="-0.63" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Nj8Q5rFWtXVFyINVAYre-33" value="心跳检测请求" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Nj8Q5rFWtXVFyINVAYre-30">
+          <mxGeometry x="-0.5481" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Nj8Q5rFWtXVFyINVAYre-21" value="调度中心" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="680" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Nj8Q5rFWtXVFyINVAYre-22" value="执行器" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="600" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Nj8Q5rFWtXVFyINVAYre-25" value="执行器" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="680" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Nj8Q5rFWtXVFyINVAYre-26" value="执行器" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="770" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Nj8Q5rFWtXVFyINVAYre-31" value="&lt;span style=&quot;color: rgb(51, 51, 51); font-family: &amp;quot;Microsoft YaHei&amp;quot;, Helvetica, &amp;quot;Meiryo UI&amp;quot;, &amp;quot;Malgun Gothic&amp;quot;, &amp;quot;Segoe UI&amp;quot;, &amp;quot;Trebuchet MS&amp;quot;, Monaco, monospace, Tahoma, STXihei, 华文细黑, STHeiti, &amp;quot;Helvetica Neue&amp;quot;, &amp;quot;Droid Sans&amp;quot;, &amp;quot;wenquanyi micro hei&amp;quot;, FreeSans, Arimo, Arial, SimSun, 宋体, Heiti, 黑体, sans-serif; font-size: 14px; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;当任务”路由策略”选择”故障转移(FAILOVER)”时，当调度中心每次发起调度请求时，会按照顺序对执行器发出心跳检测请求，第一个检测为存活状态的执行器将会被选定并发送调度请求。&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="180" y="850" width="420" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Nj8Q5rFWtXVFyINVAYre-34" value="&lt;span style=&quot;color: rgb(51, 51, 51); font-family: &amp;quot;Microsoft YaHei&amp;quot;, Helvetica, &amp;quot;Meiryo UI&amp;quot;, &amp;quot;Malgun Gothic&amp;quot;, &amp;quot;Segoe UI&amp;quot;, &amp;quot;Trebuchet MS&amp;quot;, Monaco, monospace, Tahoma, STXihei, 华文细黑, STHeiti, &amp;quot;Helvetica Neue&amp;quot;, &amp;quot;Droid Sans&amp;quot;, &amp;quot;wenquanyi micro hei&amp;quot;, FreeSans, Arimo, Arial, SimSun, 宋体, Heiti, 黑体, sans-serif; font-size: 14px; text-align: left; text-wrap: wrap; background-color: rgb(255, 255, 255);&quot;&gt;127.0.0.1:9997&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="560" y="615" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Nj8Q5rFWtXVFyINVAYre-35" value="&lt;span style=&quot;color: rgb(51, 51, 51); font-family: &amp;quot;Microsoft YaHei&amp;quot;, Helvetica, &amp;quot;Meiryo UI&amp;quot;, &amp;quot;Malgun Gothic&amp;quot;, &amp;quot;Segoe UI&amp;quot;, &amp;quot;Trebuchet MS&amp;quot;, Monaco, monospace, Tahoma, STXihei, 华文细黑, STHeiti, &amp;quot;Helvetica Neue&amp;quot;, &amp;quot;Droid Sans&amp;quot;, &amp;quot;wenquanyi micro hei&amp;quot;, FreeSans, Arimo, Arial, SimSun, 宋体, Heiti, 黑体, sans-serif; font-size: 14px; text-align: left; text-wrap: wrap; background-color: rgb(255, 255, 255);&quot;&gt;127.0.0.1:9998&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="550" y="688" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Nj8Q5rFWtXVFyINVAYre-36" value="&lt;span style=&quot;color: rgb(51, 51, 51); font-family: &amp;quot;Microsoft YaHei&amp;quot;, Helvetica, &amp;quot;Meiryo UI&amp;quot;, &amp;quot;Malgun Gothic&amp;quot;, &amp;quot;Segoe UI&amp;quot;, &amp;quot;Trebuchet MS&amp;quot;, Monaco, monospace, Tahoma, STXihei, 华文细黑, STHeiti, &amp;quot;Helvetica Neue&amp;quot;, &amp;quot;Droid Sans&amp;quot;, &amp;quot;wenquanyi micro hei&amp;quot;, FreeSans, Arimo, Arial, SimSun, 宋体, Heiti, 黑体, sans-serif; font-size: 14px; text-align: left; text-wrap: wrap; background-color: rgb(255, 255, 255);&quot;&gt;127.0.0.1:9999&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="570" y="778" width="120" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
